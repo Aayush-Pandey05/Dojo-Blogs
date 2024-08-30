@@ -22,7 +22,7 @@ const Create = () => {
             console.log('new blog added');
             setIsPending(false);
             //"history.go(-1)" this will help to redirect the user one page before
-            history.pushState('/');// using this we will redirect the user back to the homepage once the blog is added 
+            history.push('/');// using this we will redirect the user back to the homepage once the blog is added 
         })
     }
 
